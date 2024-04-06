@@ -3,7 +3,7 @@ function checkProbabilityTheory(count) {
     let oddCount = 0;
 
     for (let i = 0; i < count; i++) {
-        let randomNumber = Math.floor(Math.random() * (1000 - 100 + 1)) + 100; // Генеруємо число від 100 до 1000
+        let randomNumber = Math.floor(Math.random() * (1000 - 100 + 1)) + 100;
         if (randomNumber % 2 === 0) {
             evenCount++;
         } else {
